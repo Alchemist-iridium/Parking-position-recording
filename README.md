@@ -1,5 +1,5 @@
 # Parking-position-recording
-A system that can record and access the position where the vehicles are parked. 
+A system that can record and access the position where the vehicles are parked, easily triggered by an NFC tag or tapping an icon on screen. 
 ---
 ### Platform (current) 
 iOS (version: anyone with Shortcuts app)   
@@ -25,6 +25,7 @@ The positions of multiple vehicles can be recorded and accessed by duplicating a
   - Check and set the privacy setting in the "i" sign - privacy in the down bar.  
 
 - Method two  
+  - Go to Settings-General-NFC and enable the NFC setting.
   - Open Automation in Shortcuts app, go to the "+" sign on the top right and click "Create Personal Automation".  
   - Find the option: NFC, open it, click NFC Tag and scan the NFC Tag (Tip: put the NFC tag near the back camera of your iPhone where the NFC reader is).  
   - Create the position-recording program according to **Record the position**. 

@@ -2,7 +2,7 @@
 A system that can record and access the position where the vehicles are parked. 
 ---
 ### Platform (current) 
-iOS (version: anyone with Shortcuts app).   
+iOS (version: anyone with Shortcuts app)   
 ### Tools     
 #### Essential
 - Shortcuts app on iphone
@@ -17,10 +17,12 @@ iOS (version: anyone with Shortcuts app).
 # Core Function 
 
 ## Setup
+The positions of multiple vehicles can be recorded and accessed by duplicating and editing the shortcuts (In Shortcuts app,apply a long press to the and choose the "Duplicate" option; method 1).  
+
 - Method one
   - Create a new folder in Notes.  
   - Open the iCloud link and set the name of the Notes folder in the **two blanks** with the name of the folder in Notes you just created.
-  - check and set the privacy setting in the "i" sign - privacy in the down bar.  
+  - Check and set the privacy setting in the "i" sign - privacy in the down bar.  
 
 - Method two  
   - Open Automation in Shortcuts app, go to the "+" sign on the top right and click "Create Personal Automation".  
@@ -30,9 +32,9 @@ iOS (version: anyone with Shortcuts app).
 ---
 ## Record the position 
 [iCloud link to the position-recording shortcuts](https://www.icloud.com/shortcuts/f6b5ec875ab5469c877a7cfd76184ed4)
-  - record the current position (**varible 1**).  
-  - open the current position in Maps and then take a screenshot (**varible 2**).  
-  - choose from menu "Take a photo" (Yes/No).   
+  - Record the current position (**varible 1**).  
+  - Open the current position in Maps and then take a screenshot (**varible 2**).  
+  - Choose from menu "Take a photo" (Yes/No).   
     -if yes, take a photo (**varible 3**), create note with photo,screenshot and current position in the folder you set in the setup process.
     (**Attention! the varible type of the current location has to be URL, otherwise the position would mess up. The type of the varible can be modified by click the varible and choose URL in the type option. **)。 
     

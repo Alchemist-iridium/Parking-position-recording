@@ -28,13 +28,13 @@ iOS (version: anyone with Shortcuts app).
   - Create the position-recording program according to **Record the position**. 
 
 ---
-## Record the position
+## Record the position 
 [iCloud link to the position-recording shortcuts](https://www.icloud.com/shortcuts/f6b5ec875ab5469c877a7cfd76184ed4)
   - record the current position (**varible 1**).  
   - open the current position in Maps and then take a screenshot (**varible 2**).  
   - choose from menu "Take a photo" (Yes/No).   
     -if yes, take a photo (**varible 3**), create note with photo,screenshot and current position in the folder you set in the setup process.
-    (**Attention! the varible type of the current location has to be URL, or else the position would mess up. The type of the varible can be set **)。 
+    (**Attention! the varible type of the current location has to be URL, otherwise the position would mess up. The type of the varible can be modified by click the varible and choose URL in the type option. **)。 
     
     
 ![2611678782808_ pic](https://user-images.githubusercontent.com/103753280/224952953-e50306b5-416c-4cd4-ac28-a66ed5b6300d.jpg)
@@ -50,8 +50,8 @@ iOS (version: anyone with Shortcuts app).
 - Method two: automation; triggered by a NFC tag placed near an iPhone.  
   To read the NFC tag, the screen have to light up. Running the program needs to unlock the iPhone.  
 ---
-## Access the position
-(**Attention! this function might not working due to bugs on iPhone. I recommend accessing the files directly in Notes**).  
+## Access the position 
+(**Attention again! the varible type of the current location in the recording file has to be URL, otherwise the position would mess up. The type of the varible can be modified by click the varible and choose URL in the type option. **)。 
 [iCloud link to the position-accessing shortcuts](https://www.icloud.com/shortcuts/dafc6d7916ff408fb1e4a37e5f9914a1)
 
 ![2651678786637_ pic](https://user-images.githubusercontent.com/103753280/224959468-66bcb0ff-57b0-4186-bb25-7c3de74b34d1.jpg)  
